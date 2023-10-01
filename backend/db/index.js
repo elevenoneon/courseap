@@ -14,7 +14,7 @@ const adminSchema = new mongoose.Schema({
 const courseSchema = new mongoose.Schema({
     title: String,
     description: String,
-    price: String,
+    price: number,
     imageLink: String,
     published: Boolean
 });
